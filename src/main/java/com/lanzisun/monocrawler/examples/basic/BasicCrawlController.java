@@ -101,6 +101,8 @@ public class BasicCrawlController {
          * rootFolder manually.
          */
         config.setResumableCrawling(false);
+        config.setIncludeHttpsPages(true);
+        config.setUserAgentString("Googlebot/2.1 (+http://www.google.com/bot.html)");
 
 
         /*
@@ -117,10 +119,11 @@ public class BasicCrawlController {
          * URLs that are fetched and then the crawler starts following links
          * which are found in these pages
          */
-//        controller.addSeed("http://www.ics.uci.edu/");
+//        controller.addSeed("https://github.com/lanzisun/crawler4j");
 //        controller.addSeed("http://www.ics.uci.edu/~lopes/");
-        controller.addSeed("http://intranet.strcn.com/");
-        controller.addSeed("http://intranet.strcn.com/npr/");
+//        controller.addSeed("http://intranet.strcn.com/");
+//        controller.addSeed("http://intranet.strcn.com/npr/");
+        controller.addSeed("http://www.ul.com/");
 
 
         /*

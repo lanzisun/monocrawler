@@ -55,7 +55,7 @@ public class Downloader {
 //    downloader.processUrl("http://en.wikipedia.org/wiki/Main_Page/");
 //    downloader.processUrl("http://www.yahoo.com/");
 
-        downloader.processUrl("http://intranet.strcn.com/npr/loginPage.xhtml");
+//        downloader.processUrl("http://intranet.strcn.com/npr/loginPage.xhtml");
         downloader.processUrl("http://intranet.strcn.com/npr/PRListPage.xhtml");
     }
 
@@ -71,6 +71,7 @@ public class Downloader {
                     logger.info("Text length: {}", htmlParseData.getText().length());
                     logger.info("Html length: {}", htmlParseData.getHtml().length());
                     logger.info("Text : {}", htmlParseData.getText());
+//                    logger.info("Html : {}", htmlParseData.getHtml());
                 }
             } else {
                 logger.warn("Couldn't parse the content of the page.");
