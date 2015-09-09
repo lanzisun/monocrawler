@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lanzisun.monocrawler.fx.controller.ContentItemController">
+    <stylesheets>
+        <URL value="@/styles/contentitem.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="17.0" layoutY="48.0" prefHeight="17.0" prefWidth="574.0" text="Label" />
+         </children></Pane>
+   </children>
+</AnchorPane>
