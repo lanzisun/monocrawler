@@ -41,8 +41,7 @@ public class StartMain extends Application {
 
 //        StackPane root = new StackPane();
 //        root.getChildren().add(btn);
-        Scene scene = new Scene(root, 300, 250);
-
+        Scene scene = new Scene(root, root.getLayoutX(), root.getLayoutY());
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
         primaryStage.show();
