@@ -14,9 +14,9 @@ import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 public class DefaultCrawlConfig extends CrawlConfig {
 
     private static final String userAgentString = "crawler4j (https://github.com/yasserg/crawler4j/)";
-    private static final String crawlStorageFolder = "/data/crawl/root";
+    private static final String crawlStorageFolder = "/data/crawl/root/caoliu";
     private static final int numberOfCrawlers = 7;
-    private static final String crawlStoregeImageFolder = "/data/crawl/root/images";
+    private static final String crawlStoregeImageFolder = "/data/crawl/root/caoliu/images";
 
     public DefaultCrawlConfig() {
         super();
@@ -25,12 +25,15 @@ public class DefaultCrawlConfig extends CrawlConfig {
         setCrawlStorageFolder(crawlStorageFolder);
     }
 
-    public static String getCrawlStoregeImageFolder() {
+    public String getCrawlStoregeImageFolder() {
         return crawlStoregeImageFolder;
     }
 
-    public static int getNumberOfCrawlers() {
+    public int getNumberOfCrawlers() {
         return numberOfCrawlers;
     }
 
+    public String getCrawlStorageFolder(){
+        return crawlStoregeImageFolder;
+    }
 }
