@@ -9,6 +9,15 @@ package com.lanzisun.monocrawler.data;
  *
  * @author 60334
  */
-public class WebURL {
+public interface BaseDataFileInterface {
     
+    public String getMineType();
+    
+    public String getFileName();
+    
+    public int getFileSize();
+    
+    public String getPath();
+    
+    public String getExtension();
 }
