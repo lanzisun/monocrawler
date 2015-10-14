@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lanzisun.monocrawler.data;
+package com.lanzisun.monocrawler.datafile;
 
 /**
  *
  * @author 60334
  */
-public class TorrentDataFile implements BaseDataFileInterface{
+public class MP3DataFile implements BaseDataFileInterface{
 
     @Override
     public String getMineType() {
@@ -33,6 +33,11 @@ public class TorrentDataFile implements BaseDataFileInterface{
 
     @Override
     public String getExtension() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public byte[] getContent() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

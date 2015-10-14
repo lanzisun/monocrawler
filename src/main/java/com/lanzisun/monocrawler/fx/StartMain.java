@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lanzisun.monocrawler;
+package com.lanzisun.monocrawler.fx;
 
 import java.net.URL;
 import javafx.application.Application;

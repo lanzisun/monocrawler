@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lanzisun.monocrawler.data;
+package com.lanzisun.monocrawler.datafile;
 
 /**
  *
@@ -20,4 +20,6 @@ public interface BaseDataFileInterface {
     public String getPath();
     
     public String getExtension();
+    
+    public byte[] getContent();
 }
